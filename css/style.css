@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #00BCFF;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+nav{
+
+width: 40%;
+
+margin: auto;
+
+display: flex;
+
+vertical-align: middle;
+}
+nav ul{
+
+list-style: none;
+
+overflow: hidden;
+}
+nav ul li{
+
+float: left;
+
+margin-left: 10px;
+}
+.content{
+
+}
+.left{width: 40%;background-color: #00BCFF;float: left;}
+
+.left img{
+
+width: 100%;
+height: 500px;
+}
+.right{
+
+background-color: #009EFF;
+
+width: 60%;
+
+float: right;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+height: 500px;
+}
+.right_form{
+
+width: 40%;
+
+}
+.right_form h2{
+
+color: #fff;
+
+text-transform: capitalize;
+
+font-size: 25px;
+
+margin-bottom: 15px;
+}
+.right_form p{
+
+margin-bottom: 15px;
+}
+.right_form form{
+
+width: 100%;
+}
+.right_form form input{
+
+width: 100%;
+
+padding: 5px 3px;
+
+border: none;
+
+margin-bottom: 10px;
+}
+
+.right_form form input[type="submit"]{
+
+width: 81px;
+
+padding: 10px 5px;
+
+text-transform: capitalize;
+}
+.social_icon{
+}
+.social_icon ul{
+
+list-style: none;
+
+overflow: hidden;
+}
+.social_icon ul li{
+    
+float: left;
+    
+margin-right: 15px;
+    
+margin-top: 20px;
+    
+color: #fff;
+    
+font-size: 16px;
+}
+
